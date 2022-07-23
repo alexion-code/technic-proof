@@ -1,0 +1,65 @@
+{
+    "id": 1,
+    "type": "PACK",
+    "name": "Pack Fibra 300 Mbps y 10 GB",
+    "description": "Máximo ahorro en tu fibra y móvil. Sin cuota de línea ni costes extra.",
+    "prices": [
+        {
+            "name": "iva",
+            "price": 29.9
+        },
+        {
+            "name": "igic",
+            "price": 26.44
+        },
+        {
+            "name": "ipsi",
+            "price": 26.69
+        }
+    ],
+    "promotions": [
+        {
+            "id": 1,
+            "name": "Con Permanencia",
+            "displayName": "¿Qué incluye esta oferta?",
+            "description": "Descuento del 100% en los Gastos de instalación (96,80€ IVA Incl.) con una permanencia de 3 meses. En caso de incumplimiento, deberás abonar el importe íntegro de los Gastos de Instalación.",
+            "active": true,
+            "type": "STANDARD"
+        },
+        {
+            "id": 2,
+            "name": "Sin Permanencia",
+            "displayName": "¿Qué incluye esta oferta?",
+            "description": "Asumes el gasto de instalación en tu primera factura (96,80€ IVA Incl.) por los gastos de la instalación y no tendrás permanencia con nosotros.",
+            "active": true,
+            "type": "ALTERNATIVE"
+        }
+    ],
+    "phonelineMegas": 10240,
+    "phonelineMinutes": 0,
+    "phonelineSms": 1000,
+    "fiberDownloadMegas": 300,
+    "webInfo": {
+        "id": 33,
+        "slug": "300mb-fibra-10gb-movil",
+        "menuTitle": "Fibra 300Mb y Móvil 10GB",
+        "name": "Fibra 300Mb y Móvil 10GB",
+        "description": "Máximo ahorro en tu fibra y móvil. Sin cuota de línea ni costes extra.",
+        "analyticsName": "FIBRA 300MB Y 10GB + ILIMITADAS",
+        "tag": "TARIFA DE PRUEBA",
+        "bullets": [
+            "Acumula y comparte tus GB",
+            "Añade más líneas desde 6,90€",
+            "Llamadas ilimitadas"
+        ],
+        "features": [
+            "Llamadas ilimitadas hasta 6000 minutos.",
+            "1000 SMS gratis incluidos.",
+            "Precio definitivo y para siempre.",
+            "Sin cuota de línea fija.",
+            "Acumula los GB que no gastes y comparte GB con otros clientes Finetwork.",
+            "Velocidad simétrica en fibra dependiendo de disponibilidad geográfica.",
+            "¡Añade líneas adicionales: 15GB por 6,90€, o bien 25GB por 8,90€!"
+        ]
+    }
+}
