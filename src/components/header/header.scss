@@ -1,0 +1,12 @@
+.header-component {
+    background-color: white;
+    padding: 0 60px 0 60px;
+
+    @media screen and (max-width: 1024px) {
+        .container-fluid {
+            align-items: center;
+            justify-content: center;
+            
+        }
+    }
+}

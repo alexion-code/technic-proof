@@ -1,0 +1,45 @@
+.checkout-page-step4-component {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-content: flex-start;
+
+        .selected {
+            border: 1px solid #c3a5ff;
+        }
+
+        .card {
+            border-radius: 0;
+            cursor: pointer;
+            width: 18rem;
+        }
+
+        button {
+            background-color: #5f09fe;
+            border-radius: 0;
+            margin-top: 20px;
+            padding: 15px 60px 15px 60px;
+            font-size: 0.9rem;
+        }
+
+        .alert {
+            margin-top: 40px;
+        }
+
+        &__cards {
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding-top: 20px;
+        }
+
+        &__title {
+            font-weight: bolder;
+            padding: 0;
+            margin:0;
+        }
+
+       
+}

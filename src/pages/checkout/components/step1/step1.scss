@@ -1,0 +1,404 @@
+.checkout-page-step1-component {
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-content: flex-start;
+
+        .card {
+            border-radius: 0;
+            border-color: white;
+            cursor: pointer;
+            width: 18rem;
+            text-align: left;
+            margin-right: 30px;
+            width: 25rem;
+            .card-body {
+                padding-top: 0px;
+            }
+
+            .card-header-title {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                min-height: 42px;
+
+                .card-info {
+                    padding: 6px 16px 6px 16px;
+                    background-color: #c3a5ff;
+                    color: white;
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                    margin: 0;
+                    height:28px;
+                }
+
+                .card-info.no-info {
+                    padding: 8px 16px 8px 16px;
+                    background-color: white;
+                    color: white;
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                }
+
+                .card-icon-ok {
+                    margin: 16px 16px 8px 16px;
+                }
+
+                .card-icon-ok.right {
+                    justify-self:flex-end;
+                    margin: 16px 16px 8px 16px;
+                }
+                
+            }
+            h5.card-title {
+                font-size: 0.9rem;
+                font-weight: bold;
+            }
+
+            p.card-text {
+                font-size: 0.9rem;
+                font-weight: bold;
+            }
+        }
+
+        .selected {
+            border: 1px solid #c3a5ff;
+        }
+
+        button {
+            background-color: #0000d0;
+            border-radius: 0;
+            margin-top: 40px;
+            padding: 15px 60px 15px 60px;
+            font-size: 0.9rem;
+        }
+
+        button:disabled {
+            background-color: #d8d8d8;
+            color: #a7a7a7;
+            border-radius: 0;
+            border: 0;
+            margin-top: 40px;
+            padding: 15px 60px 15px 60px;
+            font-size: 0.9rem;
+        }
+
+        .checkout-page-step1-component {
+
+            &__cards {
+                display:flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                padding-top: 20px;
+            }
+
+            &__title {
+                font-weight: bolder;
+                padding-top: 32px;
+                margin: 0;
+                padding-bottom: 20px;
+            }
+
+            &__name {
+                font-size: 2.8rem;
+                font-weight: bolder;
+                margin: 0;
+            }
+
+            &__titles {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                min-height: 96px;
+
+                &-column {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                }
+            }
+
+            &__description {
+                padding: 50px 0 40px 0;
+                font-size: 0.85rem;
+            }
+
+            &__features {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: flex-start;
+                grid-column-gap: 42px;
+                grid-row-gap: 20px;
+
+                &-group {
+                    display: inline-flex;
+                    align-items: flex-start;
+                    min-height: 30px;
+                    text-align: start;
+                    .checkout-page-step1-component__features-check {
+                        margin-top: 6px;
+                    }
+                    p.checkout-page-step1-component__features-p {
+                        width: 22rem;
+                        margin: 0;
+                        padding-left: 6px;
+                        font-size: 0.85rem;
+                    }
+                }
+            }
+
+            &__choice-text {
+                margin: 0;
+                padding: 40px 0 20px 0;
+            }
+
+            &__price-column {
+                display: inline-flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                align-content: flex-end;
+
+                h1 {
+                    font-size: 5rem;
+                    margin: 0;
+                }
+            }
+
+            &__price {
+                font-weight: bolder;
+            }
+
+            &__price-info {
+                display:flex;
+                flex-direction:column;
+                align-items: flex-start;
+                font-size: 0.6rem;
+                font-weight: bolder;
+                padding-bottom: 0.5rem;
+                padding-left: 4px;
+                p {
+                    margin: 0;
+                }
+            }
+
+            &__separation {
+                margin-top: 20px;
+                width: 50px;
+                height: 3px;
+                background-color: #0000d0;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-content: flex-start;
+
+            .card {
+                border-radius: 0;
+                border-color: white;
+                cursor: pointer;
+                width: 100%;
+                text-align: left;
+                margin-bottom: 30px;
+                max-width: 370px;
+                max-height: 326px;
+                .card-body {
+                    padding-top: 0px;
+                }
+
+                .card-header-title {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    min-height: 42px;
+
+                    .card-info {
+                        padding: 6px 16px 6px 16px;
+                        background-color: #c3a5ff;
+                        color: white;
+                        font-size: 0.9rem;
+                        font-weight: bold;
+                        margin: 0;
+                        height:28px;
+                    }
+
+                    .card-info.no-info {
+                        padding: 8px 16px 8px 16px;
+                        background-color: white;
+                        color: white;
+                        font-size: 0.9rem;
+                        font-weight: bold;
+                    }
+
+                    .card-icon-ok {
+                        margin: 16px 16px 8px 16px;
+                    }
+
+                    .card-icon-ok.right {
+                        justify-self:flex-end;
+                        margin: 16px 16px 8px 16px;
+                    }
+                    
+                }
+                h5.card-title {
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                }
+
+                p.card-text {
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                }
+            }
+
+            .selected {
+                border: 1px solid #c3a5ff;
+            }
+
+            button {
+                background-color: #0000d0;
+                border-radius: 0;
+                margin-top: 10px;
+                padding: 15px 60px 15px 60px;
+                font-size: 0.9rem;
+            }
+
+            button:disabled {
+                background-color: #d8d8d8;
+                color: #a7a7a7;
+                border-radius: 0;
+                border: 0;
+                margin-top: 40px;
+                padding: 15px 60px 15px 60px;
+                font-size: 0.9rem;
+            }
+
+            .checkout-page-step1-component {
+
+                &__cards {
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-top: 20px;
+                }
+
+                &__title {
+                    font-weight: bolder;
+                    padding-top: 32px;
+                    margin: 0;
+                    padding-bottom: 20px;
+                }
+
+                &__name {
+                    width: 100%;
+                    text-align: start;
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    margin: 0;
+                }
+
+                &__titles {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 96px;
+
+                    &-column {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                    }
+                }
+
+                &__description {
+                    text-align: start;
+                    padding: 50px 0 40px 0;
+                    font-size: 0.85rem;
+                }
+
+                &__features {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    justify-content: flex-start;
+                    grid-row-gap: 20px;
+
+                    &-group {
+                        display: inline-flex;
+                        align-items: flex-start;
+                        min-height: 30px;
+                        text-align: start;
+                        .checkout-page-step1-component__features-check {
+                            margin-top: 6px;
+                        }
+                        p.checkout-page-step1-component__features-p {
+                            width: 100%;
+                            margin: 0;
+                            padding-left: 6px;
+                            font-size: 0.85rem;
+                        }
+                    }
+                }
+
+                &__choice-text {
+                    margin: 0;
+                    padding: 40px 0 20px 0;
+                    text-align: start;
+                }
+
+                &__price-column {
+                    display: inline-flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    align-content: flex-start;
+                    padding-top: 20px;
+
+                    h1 {
+                        font-size: 3rem;
+                        margin: 0;
+                    }
+                }
+
+                &__price {
+                    font-weight: bolder;
+                }
+
+                &__price-info {
+                    display:flex;
+                    flex-direction:column;
+                    align-items: flex-start;
+                    font-size: 0.6rem;
+                    font-weight: bolder;
+                    padding-bottom: 0.5rem;
+                    padding-left: 4px;
+                    p {
+                        text-align: start;
+                        margin: 0;
+                    }
+                }
+
+                &__separation {
+                    margin-top: 20px;
+                    width: 50px;
+                    height: 3px;
+                    background-color: #0000d0;
+                }
+            }
+        }
+    }
+
+}

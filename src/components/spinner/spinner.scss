@@ -1,0 +1,13 @@
+.spinner-component {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 200px;
+
+    .spinner-border {
+        color: #0000d0;
+    }
+}

@@ -1,0 +1,191 @@
+.footer-component {
+    background-color: black;
+    color: #bebebe;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px 50px 80px;
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 0 30px 0;
+
+        &-nav {
+            display: inline-flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            width: 45%;
+            a {
+                cursor: pointer;
+            }
+        }
+
+        &-copyright {
+            display: inline-flex;
+            justify-content:flex-end;
+            width: 50%;
+            font-size: 0.85rem;
+        }
+    }
+
+    &__column-left {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        img {
+            width: 140px;
+            height: 32px;
+        }
+    }
+
+    &__column-right {
+        display: flex;
+        flex-direction: row;
+        img {
+            width: 84px;
+            height: 88px;
+        }
+    }
+
+    &__column-center {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem;
+        &-info {
+            display: flex;
+            flex-direction: column;
+            &-up {
+                display: flex;
+                flex-direction: row;
+                align-content: flex-start;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+
+            &-down {
+                display: flex;
+                flex-direction: row;
+                align-content: flex-start;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-top: 20px;
+            }
+
+            &-left {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: flex-start;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+
+            &-right {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+            }
+        }
+        
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding: 30px 60px 30px 60px;
+
+        &__row {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0 10px 0;
+
+            &-nav {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-size: 0.85rem;
+                width: 100%;
+                padding-bottom: 20px;
+                a {
+                    cursor: pointer;
+                }
+            }
+
+            &-copyright {
+                display: flex;
+                width: 100%;
+                font-size: 0.85rem;
+            }
+        }
+
+        &__column-left {
+            display: flex;
+            flex-direction: row;
+            padding-top: 20px;
+            img {
+                width: 140px;
+                height: 32px;
+            }
+        }
+
+        &__column-right {
+            display: flex;
+            flex-direction: row;
+            padding-top: 20px;
+            img {
+                width: 84px;
+                height: 88px;
+            }
+        }
+
+        &__column-center {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            font-size: 1rem;
+            &-info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &-up {
+                    display: flex;
+                    flex-direction: row;
+                    align-content: flex-start;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                }
+
+                &-down {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-start;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding-top: 20px;
+                }
+
+                &-left {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    align-content: flex-start;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                }
+
+                &-right {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: flex-end;
+                    padding-top: 20px;
+                }
+            }
+            
+        }
+    }
+
+}
