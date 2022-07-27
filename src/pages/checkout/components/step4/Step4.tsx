@@ -2,11 +2,9 @@ import React, {
   Dispatch,
   SetStateAction,
   SyntheticEvent,
-  useEffect,
-  useState,
+  useEffect
 } from "react";
 import { useCart } from "../../../../contexts/CartContext";
-import { useProducts } from "../../../../contexts/ProductsContext";
 import "./step4.scss";
 
 const Step4 = (props: { setStep?: Dispatch<SetStateAction<number>> }) => {
