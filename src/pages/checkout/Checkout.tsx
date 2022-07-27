@@ -1,5 +1,4 @@
-import React, { SyntheticEvent, useEffect, useState } from "react";
-import { JsxElement } from "typescript";
+import React, { useState } from "react";
 import Layout from "../../components/layout/Layout";
 import "./checkout.scss";
 import Step1 from "./components/step1/Step1";

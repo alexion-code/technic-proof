@@ -1,10 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { CartContextProvider } from "./contexts/CartContext";
-import {
-  ProductsContextProvider,
-  useProducts,
-} from "./contexts/ProductsContext";
+import { ProductsContextProvider } from "./contexts/ProductsContext";
 import Checkout from "./pages/checkout/Checkout";
 
 function App() {

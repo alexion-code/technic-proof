@@ -32,10 +32,10 @@ const Footer = () => {
       <hr />
       <div className="footer-component__row">
         <div className="footer-component__row-nav">
-          <a>Aviso legal</a>
-          <a>Política de cookies</a>
-          <a>Política de privacidad</a>
-          <a>Términos y condiciones</a>
+          <a href="#">Aviso legal</a>
+          <a href="#">Política de cookies</a>
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos y condiciones</a>
         </div>
         <span className="footer-component__row-copyright">
           © Finetword - All Rights Reserved. - 2020 || Servicios prestados por

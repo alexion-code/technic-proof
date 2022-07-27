@@ -1,9 +1,7 @@
 import React, { useContext, createContext, useEffect } from "react";
 import { useMemo, useState } from "react";
 import getProductsAPI from "../api/api";
-import { CartContextInterface, CartInterface } from "./cartContext.model";
 import {
-  Products,
   ProductsContextInterface,
   ProductsInterface,
 } from "./productsContext.model";

@@ -10,17 +10,17 @@ import { useProducts } from "../../../../contexts/ProductsContext";
 import "./step3.scss";
 
 const Step3 = (props: { setStep?: Dispatch<SetStateAction<number>> }) => {
-  const { products, loading } = useProducts();
+  const { products } = useProducts();
   const cart = useCart();
 
   const [checkValue, setCheckValue] = useState<boolean>(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  },[]);
-  
+  }, []);
+
   const onChange = (e: SyntheticEvent) => {
-    const { name, checked } = e.currentTarget as HTMLInputElement;
+    const { checked } = e.currentTarget as HTMLInputElement;
     setCheckValue(checked);
   };
 
@@ -107,7 +107,9 @@ const Step3 = (props: { setStep?: Dispatch<SetStateAction<number>> }) => {
             )}
           </div>
           <div className="checkout-page-step3-component__titles-column-row mb-30">
-            <h5 className="checkout-page-step3-component__titles-column-name"></h5>
+            <h5 className="checkout-page-step3-component__titles-column-name">
+              &nbsp;
+            </h5>
             {cart?.product?.price && (
               <div className="checkout-page-step3-component__price-column">
                 <h1 className="checkout-page-step3-component__price lh-60">

@@ -1,4 +1,4 @@
-import React, { useContext, createContext, useEffect } from "react";
+import React, { useContext, createContext } from "react";
 import { useMemo, useState } from "react";
 import {
   CartContextInterface,
