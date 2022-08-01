@@ -19,9 +19,9 @@ const Footer = () => {
               <span className="footer-component__column-center-info-left">
                 De Lunes a Domingo desde las 9:00 hasta las 22:00h
               </span>
-              <span className="footer-component__column-center-info-right">
+              <a href="#" className="footer-component__column-center-info-right">
                 Te llamamos +
-              </span>
+              </a>
             </div>
           </div>
         </div>
