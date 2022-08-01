@@ -305,7 +305,7 @@ const Step2 = (props: { setStep?: Dispatch<SetStateAction<number>> }) => {
                 id="phone"
                 name="phone"
                 className={`form-control ${errors.phone ? "error" : ""}`}
-                placeholder="Ej. 612345678"
+                placeholder="Ej. +34612345678"
                 aria-label="phone"
                 aria-describedby="phone"
                 onChange={onChange}
